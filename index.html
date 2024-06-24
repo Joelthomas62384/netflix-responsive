@@ -283,5 +283,14 @@
         </div>
     </footer>
     <script src="/script.js"></script>
+    <script>
+        let faqCards = document.querySelectorAll('.card')
+
+faqCards.forEach((e)=>{
+    e.addEventListener('click',()=>{
+        e.classList.toggle('active')
+    })
+})
+    </script>
 </body>
 </html>
