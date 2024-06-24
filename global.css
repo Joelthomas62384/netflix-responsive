@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .banner{
+        @apply w-full h-2 bg-[#232323]
+    }
+    /* .card:hover{
+        @apply 
+    } */
+
+    
+    .btn{
+        @apply select-none
+    }
+    .ans{
+        @apply  px-10  overflow-hidden max-h-0 transition-[all_3s_ease-in-out]  text-wrap
+    }
+    .active .ans{
+        @apply  px-10 py-8 bg-[#2D2D2D] max-h-[75%] 
+    }
+
+    .active .plus-ico{
+        @apply rotate-45
+    }
+
+    
+}
+
